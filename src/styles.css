@@ -1,0 +1,24 @@
+/* Add application styles & imports to this file! */
+@import '~@ionic/angular/css/ionic.bundle.css';
+@import '~animate.css/animate.min.css';
+
+:root {
+  --ion-font-family: 'Rubik', sans-serif;
+
+  --ion-toolbar-background: linear-gradient(
+    0deg,
+    rgb(255, 0, 0),
+    rgb(124, 0, 0)
+  );
+  --ion-toolbar-color: black;
+
+  --ion-background-color: rgb(22, 21, 21);
+
+  --ion-tab-bar-background: linear-gradient(
+    180deg,
+    rgb(138, 55, 55),
+    rgb(63, 62, 62)
+  );
+  --ion-tab-bar-color: white;
+  --ion-tab-bar-color-selected: rgb(255, 11, 11);
+}
