@@ -11,7 +11,7 @@ ion-tab-bar {
 
 ion-tab-button {
   --color: #d4d4d4;
-  --color-selected: #fffb01;
+  --color-selected: #000000;
   --padding-bottom: 8px;
   --padding-top: 8px;
 
@@ -24,6 +24,6 @@ ion-tab-button {
   }
 
   &.tab-selected::before {
-    background-color: #ffe602;
+    background-color: #706f6f;
   }
 }
